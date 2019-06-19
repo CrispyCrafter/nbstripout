@@ -1,8 +1,9 @@
 -   id: nbstripout
     name: nbstripout
     description: 'Strip output from Jupyter and IPython notebooks'
-    entry: nbstripout 
+    entry: nbstripout /notebooks/*
     language: python
     language_version: python3
     require_serial: true
-    types: [python]
+    types: [text]
+    always_run: true
